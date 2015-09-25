@@ -1,8 +1,10 @@
-# SpaghettiBeams
+# SpaghettiBeams #
 
 The end goal of this project is to have a working framework for item tracking purposes. It will use Django as a database to save any pertinent data (specifically items to be tracked) and the GUI will use HTTP calls to that server for any changes made.
 
-Current Goals:
+It should be versatile in that many different users can take what is there and adjust it to their needs. Examples include video game item tracking (for those who want all the things), grocery lists, degree requirements, etc.
+
+### Current Goals: ###
 * Get generate_item function working
  * Once working, all other functions can be modeled after it
 * Create working functions for the following:
