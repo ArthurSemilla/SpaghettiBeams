@@ -1,6 +1,7 @@
 class Item:
     
     def __init__(self, name, owned):
+        self._numAttr = 2
         self._name = name
         self._owned = owned
 
@@ -19,3 +20,6 @@ class Item:
     @owned.setter
     def owned(self, owned):
         self._owned = owned
+
+    def __str__(self):
+        return "Name: %s Owned: %s" % (self.name, self.owned)
