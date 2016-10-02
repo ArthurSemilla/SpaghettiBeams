@@ -25,5 +25,9 @@ class Item:
     def properties(self):
         return self._properties
 
+    def new_property(self, key, value):
+        self._properties[key] = value
+
     def __str__(self):
         return "Name: %s Owned: %s" % (self.name, self.owned)
+
